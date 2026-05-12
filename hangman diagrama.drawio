@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="‫עמוד-1‬" id="5O8_BlB6aL_sIDQvjDox">
+    <mxGraphModel dx="1857" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-6" edge="1" parent="1" source="50nLlVOUqdKD91Itx1Gl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="להגדיר רשימה של מילים" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-9" edge="1" parent="1" source="50nLlVOUqdKD91Itx1Gl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="להגריל מילה אחת" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-16" edge="1" parent="1" source="50nLlVOUqdKD91Itx1Gl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ליצור מילה לתצוגה באורך המילה קו תחתון לכל אות" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-21" edge="1" parent="1" source="50nLlVOUqdKD91Itx1Gl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="לקבוע מספר ניחושים מקסימלי" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-24" edge="1" parent="1" source="50nLlVOUqdKD91Itx1Gl-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="610" />
+            </Array>
+            <mxPoint x="380" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-49" edge="1" parent="1" source="50nLlVOUqdKD91Itx1Gl-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="לולאת while: כל עוד נותרו ניחושים וכל האותיות עוד עוד לא התגלו" vertex="1">
+          <mxGeometry height="70" width="120" x="400" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-27" edge="1" parent="1" source="50nLlVOUqdKD91Itx1Gl-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="להציג סטטוס:מילה לתצוגה אותיות שנוחשו וניחושים שנותרו" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-29" edge="1" parent="1" source="50nLlVOUqdKD91Itx1Gl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-30" edge="1" parent="1" source="50nLlVOUqdKD91Itx1Gl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="משתמש מנחש אות אחת" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="האות כבר נוחשה" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-75" edge="1" parent="1" source="50nLlVOUqdKD91Itx1Gl-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="50nLlVOUqdKD91Itx1Gl-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="דוחים את הקלט ומבקשים אות אחרת" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="האות עוד לא נוחשה" vertex="1">
+          <mxGeometry height="30" width="60" x="50" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-38" edge="1" parent="1" source="50nLlVOUqdKD91Itx1Gl-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-46" edge="1" parent="1" source="50nLlVOUqdKD91Itx1Gl-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="בודקים אם האות קיימת במילה" vertex="1">
+          <mxGeometry height="60" width="120" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="מדפיסים הודעת הצלחה ומעדכנים את המילה לתצוגה במיקום הנכון" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="אם האות קיימת במילה" vertex="1">
+          <mxGeometry height="30" width="60" x="120" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="אם האות לא קיימת במילה" vertex="1">
+          <mxGeometry height="30" width="60" x="-60" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-79" edge="1" parent="1" source="50nLlVOUqdKD91Itx1Gl-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="50nLlVOUqdKD91Itx1Gl-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="מדפיסים הודעת כישלון מוסיפים 1 למונה הניחושים שבוצעו מבלי לעבור את המקסימום" vertex="1">
+          <mxGeometry height="60" width="120" x="-100" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="יציאה מהלולאה וסיום" vertex="1">
+          <mxGeometry height="30" width="60" x="420" y="885" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-52" edge="1" parent="1" source="50nLlVOUqdKD91Itx1Gl-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-54" edge="1" parent="1" source="50nLlVOUqdKD91Itx1Gl-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="יציאה מהלולאה וסיום" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ניצחון" vertex="1">
+          <mxGeometry height="30" width="60" x="520" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="הפסד" vertex="1">
+          <mxGeometry height="30" width="60" x="320" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-61" edge="1" parent="1" source="50nLlVOUqdKD91Itx1Gl-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560.1999999999998" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="כל האותיות נחשפו" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-59" edge="1" parent="1" source="50nLlVOUqdKD91Itx1Gl-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="50nLlVOUqdKD91Itx1Gl-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="309.79999999999995" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-58" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="נגמרו הניחושים" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="מציגים מה היתה המילה ואלו אותיות ניחשו לאורך המשחק" vertex="1">
+          <mxGeometry height="60" width="120" x="249.79999999999995" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="50nLlVOUqdKD91Itx1Gl-62" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="מדפיסים הודעת ניצחון ומציגים מה היתה המילה" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="1080" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
