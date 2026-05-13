@@ -30,7 +30,7 @@ def validate_guess(ch:str,gussed:list[str]):#אחראי על הבדיקת ולי
         return False,"the leeter need to be lower"
     else:
         return True,"your choice is valid"
-def apply_guess(state:dict,ch:str):
+def apply_guess(state:dict,ch:str):#בדיקה אם האות קיימת במילה 
     state["guessed"].append((ch))
     flag=False
     for i in range(len(state["secret"])):
@@ -42,27 +42,27 @@ def apply_guess(state:dict,ch:str):
     else:
         state["wrong_guesses"]+=1
         return False
-def print_status(state:dict):
+def print_status(state:dict):#הדפסת הסטטוס כולל המילה לתצוגה והאותיות שנוחשו והניחושים שנותרו
     remaining_guesses=state["max_tries"] - state["wrong_guesses"]
     print(f"the display is:{state["display"]},the guessed is:{state["guessed"]},the remaining_guesses:{remaining_guesses}")
-def is_won(state:dict):
+def is_won(state:dict):#בדיקת ניצחון אם כל האותיות נחשפו 
     if "".join(state["display"])==state["secret"]:
         return True
     else:
         return False
-def is_lost(state:dict):
+def is_lost(state:dict):#בדיקת הפסד אם נגמרו הניחושים המותרים 
     if state["wrong_guesses"]>=state["max_tries"]>=state["max_tries"]:
         return True
     else:
         return False
-def print_result(state:dict):
+def print_result(state:dict):#הדפסת הודעה בסוף המשחק והמגת המילה הסודית והאותיות שנוחשו 
     if is_won(state):
         print("you win the game because you guessed all the right letter")
         print(f"yhe word is {state["secret"]},and your guessed letter was:{state["guessed"]}")
     elif is_lost(state):
         print("you lost the game because your max tries is finish")
         print(f"yhe word is {state["secret"]},and your guessed letter was:{state["guessed"]}")
-def main(words:list[str],max_tries:int=6):
+def main(words:list[str],max_tries:int=6):#הפונקציה המרכזית שמעילה את המשחק עם שאר הפונקציות 
     word=choose_secret_word(words)
     dic=init_state(word,max_tries)
     while dic["max_tries"]-dic["wrong_guesses"]>0 and "".join(dic["display"])!=dic["secret"]:
