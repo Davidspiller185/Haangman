@@ -58,7 +58,7 @@ def is_won(state:dict):#בדיקת ניצחון אם כל האותיות נחש�
         return False
     
 def is_lost(state:dict):#בדיקת הפסד אם נגמרו הניחושים המותרים 
-    if state["wrong_guesses"]>=state["max_tries"]>=state["max_tries"]:
+    if state["wrong_guesses"]>=state["max_tries"]:
         return True
     else:
         return False
@@ -70,7 +70,7 @@ def print_result(state:dict):#הדפסת הודעה בסוף המשחק והמג
     elif is_lost(state):
         print("you lost the game because your max tries is finish")
         print(f"yhe word is {state["secret"]},and your guessed letter was:{state["guessed"]}")
-        
+
 def main(words:list[str],max_tries:int=6):#הפונקציה המרכזית שמעילה את המשחק עם שאר הפונקציות 
     word=choose_secret_word(words)
     dic=init_state(word,max_tries)
